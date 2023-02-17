@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - printing 1 -10
+ * main - printing 1 -9
  *
  * Return: 0
  */
@@ -9,7 +9,7 @@ int main(void)
 {
 	int i = 0;
 
-	while (i <= 10)
+	while (i <= 9)
 	{
 		printf("%d", i);
 		i++;
