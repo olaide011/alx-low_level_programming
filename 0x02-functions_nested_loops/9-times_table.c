@@ -11,7 +11,7 @@ void times_table(void)
 	for (k = 0 ; k < 10 ; k++)
 	{
 		_putchar('0');
-		for (j = 1 ; j < 10 ; j++)
+		for (j = 0 ; j < 10 ; j++)
 		{
 			int mult = j * k;
 
@@ -19,11 +19,6 @@ void times_table(void)
 			if (mult / 100 == 0)
 			{
 				_putchar(32);
-			}
-			if (mult / 10 == 0)
-			{
-				_putchar(32);
-
 			}
 			else
 			{
