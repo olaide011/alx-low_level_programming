@@ -6,35 +6,37 @@
  */
 void times_table(void)
 {
-	int j, k;
+	int v, h;
 
-	for (k = 0 ; k < 10 ; k++)
+	for (h = 0 ; h < 10 ; h++)
 	{
 		_putchar('0');
-		for (j = 0 ; j < 10 ; j++)
+		for (v = 1 ; v < 10 ; v++)
 		{
-			int mult = j * k;
+			int sum = v * h;
 
 			_putchar(',');
-			if (mult / 100 == 0)
+			if (sum / 100 == 0)
+			{
+				_putchar(32);
+			}
+			if (sum / 10 == 0)
 			{
 				_putchar(32);
 			}
 			else
 			{
-				_putchar('0' + (mult / 10));
+				_putchar('0' + (sum / 10));
 			}
-			if (mult % 10 == 0)
+			if (sum % 10 == 0)
 			{
 				_putchar('0');
 			}
 			else
 			{
-				_putchar('0' + (mult % 10));
+				_putchar('0' + (sum % 10));
 			}
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
-
-
