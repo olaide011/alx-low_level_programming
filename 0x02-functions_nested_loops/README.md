@@ -7,4 +7,8 @@ General
     Scope of variables
     What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
     What are header files and how to to use them with #include
+     
+  1.Write a program that prints _putchar, followed by a new line.
+
+    The program should return 0
 
