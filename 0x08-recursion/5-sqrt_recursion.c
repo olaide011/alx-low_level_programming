@@ -25,13 +25,8 @@ int check(int a, int b)
  */
 int _sqrt_recursion(int n)
 {
-	int root = 0;
-
-	if (n < 0)
-		return (-1);
-
-	if (n == 1)
+	if (n == 0)
 		return (1);
 
-	return (check(n, root));
+	return (check(1, n));
 }
