@@ -1,6 +1,7 @@
 #include "lists.h"
 #include <string.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 list_t *new_node(const char *str);
 /**
